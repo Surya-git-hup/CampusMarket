@@ -1,6 +1,6 @@
 import { Product } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_campus_gear_1791098196116.jpg';
+export const HERO_IMAGE = '/images/hero_campus_gear_1791098196116.jpg';
 
 export const INITIAL_PRODUCTS: Product[] = [
   {
@@ -10,12 +10,12 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 150000,
     formattedPrice: 'Rp 150.000',
     category: 'Tas',
-    image: '/src/assets/images/product_tas_ransel_1791098206635.jpg',
+    image: '/images/product_tas_ransel_1791098206635.jpg',
     gallery: [
-      '/src/assets/images/product_tas_ransel_1791098206635.jpg',
-      '/src/assets/images/product_tas_ransel_1791098206635.jpg',
-      '/src/assets/images/product_tas_ransel_1791098206635.jpg',
-      '/src/assets/images/product_tas_ransel_1791098206635.jpg',
+      '/images/product_tas_ransel_1791098206635.jpg',
+      '/images/product_tas_ransel_1791098206635.jpg',
+      '/images/product_tas_ransel_1791098206635.jpg',
+      '/images/product_tas_ransel_1791098206635.jpg',
     ],
     rating: 4.8,
     reviewCount: 120,
@@ -36,10 +36,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 7000,
     formattedPrice: 'Rp 7.000',
     category: 'Alat Tulis',
-    image: '/src/assets/images/product_buku_tulis_1791098220190.jpg',
+    image: '/images/product_buku_tulis_1791098220190.jpg',
     gallery: [
-      '/src/assets/images/product_buku_tulis_1791098220190.jpg',
-      '/src/assets/images/product_buku_tulis_1791098220190.jpg',
+      '/images/product_buku_tulis_1791098220190.jpg',
+      '/images/product_buku_tulis_1791098220190.jpg',
     ],
     rating: 4.9,
     reviewCount: 350,
@@ -60,10 +60,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 45000,
     formattedPrice: 'Rp 45.000',
     category: 'Aksesoris',
-    image: '/src/assets/images/product_tumbler_1791098233822.jpg',
+    image: '/images/product_tumbler_1791098233822.jpg',
     gallery: [
-      '/src/assets/images/product_tumbler_1791098233822.jpg',
-      '/src/assets/images/product_tumbler_1791098233822.jpg',
+      '/images/product_tumbler_1791098233822.jpg',
+      '/images/product_tumbler_1791098233822.jpg',
     ],
     rating: 4.7,
     reviewCount: 85,
@@ -84,10 +84,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 75000,
     formattedPrice: 'Rp 75.000',
     category: 'Aksesoris',
-    image: '/src/assets/images/product_sleeve_laptop_1791098247724.jpg',
+    image: '/images/product_sleeve_laptop_1791098247724.jpg',
     gallery: [
-      '/src/assets/images/product_sleeve_laptop_1791098247724.jpg',
-      '/src/assets/images/product_sleeve_laptop_1791098247724.jpg',
+      '/images/product_sleeve_laptop_1791098247724.jpg',
+      '/images/product_sleeve_laptop_1791098247724.jpg',
     ],
     rating: 4.8,
     reviewCount: 94,
@@ -108,10 +108,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 120000,
     formattedPrice: 'Rp 120.000',
     category: 'Elektronik',
-    image: '/src/assets/images/product_headphone_1791098259728.jpg',
+    image: '/images/product_headphone_1791098259728.jpg',
     gallery: [
-      '/src/assets/images/product_headphone_1791098259728.jpg',
-      '/src/assets/images/product_headphone_1791098259728.jpg',
+      '/images/product_headphone_1791098259728.jpg',
+      '/images/product_headphone_1791098259728.jpg',
     ],
     rating: 4.6,
     reviewCount: 68,
@@ -132,10 +132,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     price: 95000,
     formattedPrice: 'Rp 95.000',
     category: 'Elektronik',
-    image: '/src/assets/images/product_mouse_wireless_1791098269950.jpg',
+    image: '/images/product_mouse_wireless_1791098269950.jpg',
     gallery: [
-      '/src/assets/images/product_mouse_wireless_1791098269950.jpg',
-      '/src/assets/images/product_mouse_wireless_1791098269950.jpg',
+      '/images/product_mouse_wireless_1791098269950.jpg',
+      '/images/product_mouse_wireless_1791098269950.jpg',
     ],
     rating: 4.9,
     reviewCount: 112,
@@ -162,7 +162,7 @@ export const INITIAL_ORDERS = [
       {
         productId: 'prod-tas-ransel',
         name: 'Tas Ransel',
-        image: '/src/assets/images/product_tas_ransel_1791098206635.jpg',
+        image: '/images/product_tas_ransel_1791098206635.jpg',
         price: 150000,
         quantity: 1,
         subtotal: 150000,
@@ -186,7 +186,7 @@ export const INITIAL_ORDERS = [
       {
         productId: 'prod-buku-tulis',
         name: 'Buku Tulis',
-        image: '/src/assets/images/product_buku_tulis_1791098220190.jpg',
+        image: '/images/product_buku_tulis_1791098220190.jpg',
         price: 7000,
         quantity: 2,
         subtotal: 14000,
@@ -210,7 +210,7 @@ export const INITIAL_ORDERS = [
       {
         productId: 'prod-tumbler',
         name: 'Tumbler',
-        image: '/src/assets/images/product_tumbler_1791098233822.jpg',
+        image: '/images/product_tumbler_1791098233822.jpg',
         price: 45000,
         quantity: 1,
         subtotal: 45000,
