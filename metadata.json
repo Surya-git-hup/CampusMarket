@@ -1,0 +1,6 @@
+{
+  "name": "Campus Mart",
+  "description": "Platform e-commerce kebutuhan kampus: tas, buku tulis, tumbler, sleeve laptop, alat tulis dan elektronik dengan kemudahan belanja dan pelacakan pesanan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
